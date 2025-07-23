@@ -1,3 +1,13 @@
 Given an integer n, the task is to find the solution to the n-queens problem, where n queens are placed on an n*n chessboard such that no two queens can attack each other.
-
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
+
+The solution to this problem is the IDA* algorithm.
+
+The IDA* algorithm, like other search algorithms,
+is responsible for finding the shortest path between a given “node” of the graph to each of the target nodes in a weighted graph. 
+IDA* is an iterative depth-first search algorithm that is a sub-branch of the A* algorithm and has partially solved the problem of the space complexity of the A* algorithm. 
+We will first have a brief look at the concept of a search algorithm, 
+its types and main features, 
+and then we will have an overview of the A* algorithm, 
+and then we will fully introduce IDA* and compare it with A*.
+
